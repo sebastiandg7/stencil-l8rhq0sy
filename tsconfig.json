@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "allowNonTsExtensions": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "paths": {
+      "~/*": ["*"]
+    }
+  }
+}

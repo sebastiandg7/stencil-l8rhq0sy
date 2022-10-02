@@ -1,0 +1,32 @@
+import '@stencil/core';
+import '../src';
+import Props from '@divriots/dockit-stencil/Props';
+import Events from '@divriots/dockit-stencil/Events';
+export { default } from '../../layout';
+
+# Toggle Button
+
+```jsx
+<scale-toggle-button size={'xs'} selected>
+  Test
+</scale-toggle-button>
+```
+
+<scale-toggle-button>Test</scale-toggle-button>
+<scale-toggle-button size="small" variant="monochrome">
+Test
+</scale-toggle-button>
+<scale-toggle-button size="large" disabled>
+Test
+</scale-toggle-button>
+<scale-toggle-button size="xs" selected>
+Test
+</scale-toggle-button>
+
+## Events
+
+<Events tag={'scale-toggle-button'}></Events>
+
+## Properties
+
+<Props tag={'scale-toggle-button'}></Props>
